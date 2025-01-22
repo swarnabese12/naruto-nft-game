@@ -9,16 +9,38 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.4"
+    "@coral-xyz/anchor": "^0.30.1",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@metaplex-foundation/mpl-core-candy-machine": "^0.2.3",
+    "@metaplex-foundation/mpl-token-metadata": "^3.3.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.9.2",
+    "@nextui-org/react": "^2.6.11",
+    "@nextui-org/theme": "^2.4.5",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.98.0",
+    "bn.js": "^5.2.1",
+    "html2canvas": "^1.4.1",
+    "next": "15.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-toastify": "^11.0.2",
+    "thirdweb": "^5.83.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "pino-pretty": "^13.0.0",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
